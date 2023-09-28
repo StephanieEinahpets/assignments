@@ -1,0 +1,89 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+}
+
+
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+    margin: 5px;
+    margin-left: 10px;
+    transition-property: background-color;
+    transition-timing-function: ease-in;
+    transition-delay: 300ms;
+}
+
+#box1:hover {
+    background-color: fuchsia;
+}
+
+#box2 {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+    margin: 5px;
+    transition-property: all;
+}
+
+#box2:hover {
+    border: 5px solid fuchsia;
+}
+
+#box3 {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+    margin: 5px;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+
+#box3:hover {
+    height: 275px;
+    width: 275px;
+    background-color: fuchsia;
+    border: 5px solid #555;
+}
+
+#box4 {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+    margin: 5px;
+    transition-property: all;
+}
+
+#box4:hover {
+    opacity: .5;
+    border: 5px solid fuchsia;
+}
+
+#box5 {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+    margin: 5px;
+    transition-property: all;
+    transition-duration: 1000ms;
+}
+
+#box5:hover {
+    border-radius: 10%;
+    background-color: fuchsia;
+}
+
+#box6 {
+    height: 200px;
+    width: 200px;
+    background-color: #555;
+    margin: 5px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+#box6:hover {
+    box-shadow: 10px 10px 5px 0 fuchsia;
+}
