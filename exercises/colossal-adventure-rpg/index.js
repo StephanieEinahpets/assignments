@@ -51,7 +51,7 @@ function fight(randomenemy) {
     
 player.name = readline.question("Welcome, adventurer! What is your name? ")
 
-while person(!gameover) {
+while (!gameover) {
     var action = readline.question("You find yourself on a trail in the forest. To walk, press 'w'. To access your person, press 'p' ") 
         enemies[0].hp = 15
         enemies[1].hp = 20

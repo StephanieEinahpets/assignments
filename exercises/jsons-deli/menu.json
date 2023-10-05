@@ -1,0 +1,96 @@
+{
+    "appetizers": [
+        {
+            "name": "french fries",
+            "ingredients": ["potatoes", "salt", "oil"],
+            "description": "fresh potatoes, thinly sliced, fried at the time of ordering, and perfectly salted"
+        },
+        {
+            "name": "mozzarella sticks",
+            "ingredients": ["mozzarella", "bread crumbs", "corn starch", "salt and spices"],
+            "description": "cheese coated in seasoned bread crumbs, then deep fried until golden brown"
+        }
+    ],
+
+    "cold sandwiches": [
+        {
+            "name": "BLT",
+            "ingredients": ["bread", "bacon", "lettuce", "tomatoes", "mayonaise"],
+            "description": "fresh tomatoes, crispy bacon, and lettuce inside of a large, freshly baked artisanal roll"
+        },
+        {
+            "name": "chicken salad sandwich",
+            "ingredients": ["bread", "chicken", "celery", "grapes", "onion", "salt", "pepper"],
+            "description": "freshly made chicken salad encased inside of a large, freshly baked artisanal roll"
+        }
+    ],
+
+    "hot sandwiches": [
+        {
+            "name": "beef brisket sandwich",
+            "ingredients": ["beef", "bread", "cheese"],
+            "description": "slowly cooked beef brisket and cheese inside of a large, freshly baked artisanal roll"
+        },
+        {
+            "name": "grilled cheese sandwich",
+            "ingredients": ["bread", "butter", "cheese"],
+            "description": "freshly made grilled cheese sandwich, perfectly golden brown and crispy"
+        }
+    ],
+
+
+    "desserts": [
+        {
+            "name": "chocolate covered strawberries",
+            "ingredients": ["chocolate", "strawberries"],
+            "description": "fresh strawberries dipped in our rich chocolate, made in house"
+        },
+        {
+            "name": "pecan pie",
+            "ingredients": ["pecans", "egg", "sugar", "butter", "corn syrup", "vanilla extract", "brown sugar", "pie crust"],
+            "description": "freshly baked pecan pie made in house"
+        }
+    ],
+
+
+    "drinks": [
+        {
+            "name": "strawberry milk",
+            "ingredients": ["strawberries", "milk", "sugar"],
+            "description": "fresh strawberries blended down into milk for a refreshing summertime drink"
+        },
+        {
+            "name": "martini",
+            "ingredients": ["vodka", "dry vermouth", "pimento stuffed olives"],
+            "description": "mixed alcoholic drink with pimento stuffed olives"
+        }
+    ]
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

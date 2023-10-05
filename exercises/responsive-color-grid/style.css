@@ -4,7 +4,7 @@
 
 .box {
     display: inline-block;
-    border: 5px white;
+    border: 5px solid white;
 }
 
 #lightpinkbox {
