@@ -82,31 +82,36 @@ function listData(data){
 
         editButton.addEventListener("click", e => {
         if (editButton.textContent === 'Edit') {
-            const oldTitle = h1.textContent;
+            const oldTitle = h1.textContent
             const oldDescription = h4.textContent.replace("description: ", "")
             const oldPrice = h5.textContent.replace("price: ", "")
+            const oldImg = img.textContent
             h1.innerHTML = `<input type="text" value="${oldTitle}">`
             h4.innerHTML = `<input type="text" value="${oldDescription}">`
             h5.innerHTML = `<input type="text" value="${oldPrice}">`
+            img.innerHTML = `<input type="text" value="${oldImg}`
             editButton.textContent = 'Save'
 
         } else if (editButton.textContent === 'Save') {
-            const newTitle = h1.querySelector('input').value;
-            const newDescription = h4.querySelector('input').value;
-            const newPrice = h5.querySelector('input').value;
-            h1.textContent = newTitle;
-            h4.textContent = `description: ${newDescription}`;
-            h5.textContent = `price: ${newPrice}`;
-            editButton.textContent = 'Edit';
+            const newTitle = h1.querySelector('input').value
+            const newDescription = h4.querySelector('input').value
+            const newPrice = h5.querySelector('input').value
+            const newImg = img.querySelector('input').value
+            h1.textContent = newTitle
+            h4.textContent = `description: ${newDescription}`
+            h5.textContent = `price: ${newPrice}`
+            img.textContent = newImg
+            editButton.textContent = 'Edit'
             const updatedTodo = {
                 title: newTitle,
                 description: newDescription,
                 price: newPrice,
+                imgUrl: newImg,
             };
             axios.put("https://api.vschool.io/blackmantodo/todo/" + data[i]._id, updatedTodo)
                 .then(res => getData())
                 .catch(err => console.log(err));
-            //extra credit end//
+            //extra credit end - cannot get image input field to work//
         }
     })      
 }
@@ -115,18 +120,18 @@ function listData(data){
 
 
 
-//code challenge
+// //code challenge
 
-const people = [ "John", "Adam", "Amber" ]
+// const people = [ "John", "Adam", "Amber" ]
 
 
-function peopleElements(arr) {
-    const h1person = arr.map(person => {
-        return `<h1>${person}</h1>`
-    })
-    return h1person
-}
+// function peopleElements(arr) {
+//     const h1person = arr.map(person => {
+//         return `<h1>${person}</h1>`
+//     })
+//     return h1person
+// }
 
-console.log(peopleElements(people))
+// console.log(peopleElements(people))
 
-//Expected Output: [ "<h1>John</h1>", "<h1>Adam</h1>", "<h1>Amber</h1>" ]
+// //Expected Output: [ "<h1>John</h1>", "<h1>Adam</h1>", "<h1>Amber</h1>" ]

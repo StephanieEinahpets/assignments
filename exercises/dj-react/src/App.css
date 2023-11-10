@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: slategray;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    outline-style: solid;
+    margin: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 2 / 3;
+}
+
+.containersquared {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+

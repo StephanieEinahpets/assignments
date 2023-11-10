@@ -1,0 +1,46 @@
+body {
+  background-color: #bce1e7;
+}
+
+.coverimg {
+  background-image: url(./cover.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  color: #ffcd8a;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 100px;
+  -webkit-text-stroke: 2px #5ab5c6;
+  position: fixed;
+  left: 30%;
+  margin-top: 60px;
+}
+
+.card {
+  background-color: #d8d9cc;
+  color: #695545;
+  width: 225px;
+  height: 175px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: thick double #32a1ce;
+  padding-top: 35px;
+}
+
+.container {
+  padding-top: 325px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+}
+
+

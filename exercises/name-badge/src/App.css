@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+  margin: 15px;
+  height: 25px;
+  text-indent: 10px;
+  border: 2px solid black;
+  display: block;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin: 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  padding-bottom: 0px;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+
+textarea {
+  margin: 15px;
+  border: 2px solid black;
+  display: block;
+  grid-column: 1 / -1;
+  grid-row: 4 / 7;
+  text-indent: 10px;
+}
+
+button {
+  border-radius: 5px;
+  grid-column: 1 / -1;
+  max-width: 110px;
+  max-height: 25px;
+  margin-left: 45%;
+  font-size: medium;
+  margin-top: 5px;
+}
+
+.badgeContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin: 24px;
+}
+
+h4 {
+  background-color: gray;
+  grid-column: 1 / -1;
+  grid-row: 1 /2;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  text-indent: 10px;
+  padding-top: 5px;
+  color: white;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+.name {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.phone {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.email {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.birthplace {
+  grid-column 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.food {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.about {
+  border: 2px solid black;
+  grid-column: 1 / -1;
+  grid-row: 5 / -1;
+  margin-right: 65px;
+  margin-left: 65px;
+  margin-bottom: 25px;
+  text-indent: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+p {
+  text-indent: 70px;
+}
