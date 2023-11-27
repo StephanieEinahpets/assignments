@@ -14,6 +14,7 @@ export default function Form () {
     )
 
 function handleChange(event) {
+    console.log(event)
     const {name, value, type} = event.target
     setFormData(prevFormData => {
         return {
