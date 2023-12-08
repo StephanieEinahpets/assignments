@@ -1,3 +1,6 @@
+//You are given an array a containing integers. Your task is to implement the solution function 
+//to sort the array in ascending order, while preserving the original index positions of -1 values.
+
 function solution(arr){
     const nonNegatives = arr
         .map((value, index) => ({ value, index }))
@@ -13,6 +16,10 @@ console.log(solution([100, -1, 50, -1, 75]))
 
 
 
+//Write a JavaScript function called **`countVowels`** that takes a string as input and counts 
+//the number of vowels (a, e, i, o, u) in the string. The function should return the count.
+
+Implement the **`countVowels`** function using either the provided example solutions or your own solution.
 
 function countVowels(string) {
     let count = 0;
