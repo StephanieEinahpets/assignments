@@ -1,0 +1,93 @@
+body {
+  background-color: #282c34;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(https://i.pinimg.com/originals/67/18/22/671822c2f63dd5f65d8fd15c9710420b.jpg);
+  background-position-x: center;
+  display:block;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.myLibrarian {
+  font-family:fantasy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25%;
+  font-size: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+  margin: 10px;
+  color:#84d3d9;
+  font-size: larger;
+  font-weight: bolder;
+  border-bottom: #80cde0 2px solid;
+}
+
+
+h1 {
+  color: cadetblue;
+  margin: 40px;
+}
+
+input {
+  margin: 3px;
+  font-size: 15px;
+  padding: 5px;
+  margin-bottom: 40px;
+}
+
+button {
+  margin: 5px;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #80cde0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.book {
+  background: rgba(107, 162, 146, .5);
+  padding: 15px;
+  padding-bottom: 35px;
+  margin: 12px;
+  margin-left: 130px;
+  margin-right: 130px;
+  /* max-width: 70%; */
+  /* width: 600px; */
+}
+
+h2 {
+  color: #84d3d9;
+  padding-bottom: 15px;
+  font-size:xx-large;
+}
+
+h3 {
+  color: #a1d1b5;
+  font-size: medium;
+}
+
+h4 {
+  color: #5695a6;
+  font-size: medium;
+}
+
+h5 {
+  color: #5f9da0;
+  font-size: medium;
+}

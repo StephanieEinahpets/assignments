@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+body {
   background-color: #282c34;
-  min-height: 100vh;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+h1 {
+  color: cadetblue;
+  margin: 40px;
+}
+
+input {
+  margin: 3px;
+  font-size: 15px;
+  padding: 6px;
+}
+
+select {
+  margin: 3px;
+  font-size: 15px;
+  padding: 6px;
+}
+
+button {
+  margin: 5px;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 6px;
+  max-width: 100px;
+  background-color: #80cde0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-top: 45px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bounty {
+  border: 1px solid #58A4B0;
+  padding: 15px;
+  padding-bottom: 35px;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  color: #84d3d9;
+  padding-bottom: 15px;
+  font-size:xx-large;
+}
+
+h3 {
+  color: #a1d1b5;
+  font-size: medium;
+}
+
+h4 {
+  color: #5695a6;
+  font-size: medium;
+}
+
+h5 {
+  color: #5f9da0;
+  font-size: medium;
 }
